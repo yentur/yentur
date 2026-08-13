@@ -9,7 +9,7 @@ AI engineer. Agents, LLMs, and speech.
 
 |   |   |
 |---|---|
-| **Speech** | TTS, ASR and STT. Training and fine-tuning. Turkish mostly. |
+| **Speech** | TTS, ASR and STT. Training and fine-tuning. |
 | **Agents and LLMs** | Agent harnesses, LLM judges, retrieval pipelines. |
 | **Machine learning** | Anomaly detection, ranking, classification. |
 | **Competitions** | Kaggle and elsewhere. I enter them for fun. |
