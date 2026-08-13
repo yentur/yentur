@@ -30,13 +30,27 @@ setups for ranking and relevance, and agent harnesses. Mostly applied: the quest
 usually whether a smaller tuned model beats a larger prompted one on the actual task,
 and that is an experiment, not an opinion.
 
+**Ranking and competitions.** Search relevance and classification, mostly Turkish
+e-commerce. Cross-encoders, GBDT stacking on interaction features, embedding
+similarity, and LLM judges for the pairs a cheap model cannot settle. Two things
+generalised out of it. Mining hard negatives that match the real candidate
+distribution moved the score far more than any architecture change did. And a
+relabelled training split scored 0.92 on its own validation while losing six points on
+the real leaderboard, which is a useful reminder that a label source can be measured
+too, not just a model.
+
 **Evaluation.** Building the benchmark before the model, because a speech or retrieval
 system that has not been measured on its real distribution is a guess. Word-level error
-analysis, A/B harnesses, synthetic corpora where real data is missing.
+analysis, A/B harnesses, synthetic corpora where real data is missing. Most of what I
+have learned came from an experiment that looked like a win locally and was not one.
 
-Outside that: an anomaly detector for log and audit data, a couple of games in Godot,
-a native macOS utility in Swift, and some robotics simulation. Not my day job, useful
-for staying honest about how much of engineering is not machine learning.
+Before speech I worked on the ordinary machine learning surface: image segmentation,
+reinforcement learning, gradient boosting, swarm optimisation. Some of those repos are
+old and I have left them alone rather than tidy them up.
+
+Outside all of that: an anomaly detector for log and audit data, a couple of games in
+Godot, a native macOS utility in Swift, and some robotics simulation. Not my day job,
+useful for staying honest about how much of engineering is not machine learning.
 
 ---
 
@@ -45,8 +59,8 @@ for staying honest about how much of engineering is not machine learning.
 Speech and audio — VoxCPM, Spark-TTS, Whisper and Qwen3-ASR fine-tuning, VAD,
 diarization, forced alignment, codec and channel simulation.
 
-Training — PyTorch, LoRA and full fine-tunes, multi-GPU (FSDP, DDP), MLX on Apple
-silicon.
+Models and training — PyTorch, transformers, LoRA and full fine-tunes, multi-GPU
+(FSDP, DDP), MLX on Apple silicon, cross-encoders, LightGBM.
 
 Serving — vLLM, CTranslate2, ONNX Runtime, sherpa-onnx, batched custom runtimes.
 
