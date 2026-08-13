@@ -5,22 +5,20 @@
 
 ### Ömer Yentür
 
-Speech AI. Text to speech, speech recognition, and the pipeline around them.
-Mostly Turkish.
+AI engineer. Agents, LLMs, and speech.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.svg">
-  <img src="assets/loop-light.svg" alt="Data, train, evaluate, serve, with evaluation feeding back into data" width="100%">
+  <img src="assets/loop-light.svg" alt="Data, train, evaluate, back to train a lot of times, then win" width="100%">
 </picture>
 
-I train speech models, sometimes from scratch when a pretrained one does not fit.
+Trained TTS, ASR and STT models. Turkish mostly.
 
-Then I make them fast enough to be worth deploying.
+Built agent harnesses, LLM judges and retrieval pipelines.
 
-I measure before I believe it.
+On the ML side: anomaly detection, ranking, classification.
 
-On the side: Turkish e-commerce search relevance. Cross-encoders, GBDT stacking,
-LLM judges.
+I like ML competitions. Kaggle and elsewhere. The diagram is from experience.
 
 **Working with** &nbsp;PyTorch · MLX · vLLM · CTranslate2 · ONNX Runtime · sherpa-onnx · LightGBM
 
