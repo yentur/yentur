@@ -7,19 +7,20 @@
 
 AI engineer. Agents, LLMs, and speech.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.svg">
-  <img src="assets/loop-light.svg" alt="Data, train, evaluate, back to train a lot of times, then win" width="100%">
-</picture>
-
-Trained TTS, ASR and STT models. Turkish mostly.
-
-Built agent harnesses, LLM judges and retrieval pipelines.
-
-On the ML side: anomaly detection, ranking, classification.
-
-I like ML competitions. Kaggle and elsewhere. The diagram is from experience.
+|   |   |
+|---|---|
+| **Speech** | TTS, ASR and STT. Training and fine-tuning. Turkish mostly. |
+| **Agents and LLMs** | Agent harnesses, LLM judges, retrieval pipelines. |
+| **Machine learning** | Anomaly detection, ranking, classification. |
+| **Competitions** | Kaggle and elsewhere. I enter them for fun. |
+| **Serving** | Quantisation, batched inference, custom runtimes. |
 
 **Working with** &nbsp;PyTorch · MLX · vLLM · CTranslate2 · ONNX Runtime · sherpa-onnx · LightGBM
+
+---
+
+> The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.
+>
+> — Edsger W. Dijkstra
 
 mr.yentur@gmail.com
