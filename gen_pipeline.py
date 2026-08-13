@@ -1,6 +1,6 @@
 """Pipeline strip: the loop I actually work in, as one image instead of four paragraphs."""
 
-W, H = 1200, 178
+W, H = 1200, 226
 FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 
@@ -11,7 +11,7 @@ STAGES = [
     ("SERVE",    ["quantise", "batched inference", "measure the latency"]),
 ]
 
-BOX_W, BOX_H, GAP = 268, 108, 43
+BOX_W, BOX_H, GAP = 272, 140, 37
 X0 = (W - (BOX_W * 4 + GAP * 3)) / 2
 Y0 = 30
 
@@ -24,11 +24,11 @@ def svg(fg, sub, accent, line, box):
         p.append(f'<rect x="{x}" y="{Y0}" width="{BOX_W}" height="{BOX_H}" rx="5" '
                  f'fill="{box}" stroke="{line}" stroke-width="1"/>')
         p.append(f'<rect x="{x}" y="{Y0}" width="3" height="{BOX_H}" rx="1.5" fill="{accent}"/>')
-        p.append(f'<text x="{x + 18}" y="{Y0 + 26}" font-family="{MONO}" font-size="11.5" '
-                 f'letter-spacing="1.6" fill="{accent}" font-weight="600">{title}</text>')
+        p.append(f'<text x="{x + 20}" y="{Y0 + 32}" font-family="{MONO}" font-size="15" '
+                 f'letter-spacing="1.9" fill="{accent}" font-weight="600">{title}</text>')
         for j, it in enumerate(items):
-            p.append(f'<text x="{x + 18}" y="{Y0 + 50 + j * 20}" font-family="{FONT}" '
-                     f'font-size="13" fill="{sub}">{it}</text>')
+            p.append(f'<text x="{x + 20}" y="{Y0 + 64 + j * 26}" font-family="{FONT}" '
+                     f'font-size="17.5" fill="{sub}">{it}</text>')
         if i < 3:
             ax = x + BOX_W + GAP / 2
             ay = Y0 + BOX_H / 2
@@ -36,14 +36,14 @@ def svg(fg, sub, accent, line, box):
                      f'L{ax+2},{ay+4.5}" stroke="{line}" stroke-width="1.4" '
                      f'stroke-linecap="round" stroke-linejoin="round"/>')
     # feedback arc: evaluate feeds back into data
-    fy = Y0 + BOX_H + 26
+    fy = Y0 + BOX_H + 32
     x_end = X0 + 2 * (BOX_W + GAP) + BOX_W / 2
     p.append(f'<path d="M{x_end},{Y0+BOX_H} L{x_end},{fy} L{X0+BOX_W/2},{fy} L{X0+BOX_W/2},{Y0+BOX_H+7} '
              f'M{X0+BOX_W/2-4.5},{Y0+BOX_H+12} L{X0+BOX_W/2},{Y0+BOX_H+6} L{X0+BOX_W/2+4.5},{Y0+BOX_H+12}" '
              f'stroke="{line}" stroke-width="1.2" stroke-dasharray="3 4" fill="none" '
              f'stroke-linecap="round" stroke-linejoin="round"/>')
     p.append(f'<text x="{(X0+BOX_W/2 + x_end)/2}" y="{fy - 7}" text-anchor="middle" '
-             f'font-family="{FONT}" font-size="11.5" fill="{sub}" font-style="italic">'
+             f'font-family="{FONT}" font-size="15" fill="{sub}" font-style="italic">'
              f'most of the gain lives here</text>')
     p.append('</svg>')
     return "\n".join(p)

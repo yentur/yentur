@@ -1,31 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="178" viewBox="0 0 1200 178" fill="none" role="img" aria-label="Data, train, evaluate, serve">
-<rect x="-0.5" y="30" width="268" height="108" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
-<rect x="-0.5" y="30" width="3" height="108" rx="1.5" fill="#6FC0B4"/>
-<text x="17.5" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.6" fill="#6FC0B4" font-weight="600">DATA</text>
-<text x="17.5" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">telephone channel sim</text>
-<text x="17.5" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">forced alignment</text>
-<text x="17.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">hard negatives</text>
-<path d="M280.0,84.0 L296.0,84.0 M291.0,79.5 L296.0,84.0 L291.0,88.5" stroke="#2E3846" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="310.5" y="30" width="268" height="108" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
-<rect x="310.5" y="30" width="3" height="108" rx="1.5" fill="#6FC0B4"/>
-<text x="328.5" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.6" fill="#6FC0B4" font-weight="600">TRAIN</text>
-<text x="328.5" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">TTS / ASR fine-tune</text>
-<text x="328.5" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">LoRA and full</text>
-<text x="328.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">from scratch when needed</text>
-<path d="M591.0,84.0 L607.0,84.0 M602.0,79.5 L607.0,84.0 L602.0,88.5" stroke="#2E3846" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="621.5" y="30" width="268" height="108" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
-<rect x="621.5" y="30" width="3" height="108" rx="1.5" fill="#6FC0B4"/>
-<text x="639.5" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.6" fill="#6FC0B4" font-weight="600">EVALUATE</text>
-<text x="639.5" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">WER, word-level</text>
-<text x="639.5" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">A/B harnesses</text>
-<text x="639.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">LLM judges</text>
-<path d="M902.0,84.0 L918.0,84.0 M913.0,79.5 L918.0,84.0 L913.0,88.5" stroke="#2E3846" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="932.5" y="30" width="268" height="108" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
-<rect x="932.5" y="30" width="3" height="108" rx="1.5" fill="#6FC0B4"/>
-<text x="950.5" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.6" fill="#6FC0B4" font-weight="600">SERVE</text>
-<text x="950.5" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">quantise</text>
-<text x="950.5" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">batched inference</text>
-<text x="950.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#96A1B0">measure the latency</text>
-<path d="M755.5,138 L755.5,164 L133.5,164 L133.5,145 M129.0,150 L133.5,144 L138.0,150" stroke="#2E3846" stroke-width="1.2" stroke-dasharray="3 4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="444.5" y="157" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#96A1B0" font-style="italic">most of the gain lives here</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="226" viewBox="0 0 1200 226" fill="none" role="img" aria-label="Data, train, evaluate, serve">
+<rect x="0.5" y="30" width="272" height="140" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
+<rect x="0.5" y="30" width="3" height="140" rx="1.5" fill="#6FC0B4"/>
+<text x="20.5" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.9" fill="#6FC0B4" font-weight="600">DATA</text>
+<text x="20.5" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">telephone channel sim</text>
+<text x="20.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">forced alignment</text>
+<text x="20.5" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">hard negatives</text>
+<path d="M282.0,100.0 L298.0,100.0 M293.0,95.5 L298.0,100.0 L293.0,104.5" stroke="#2E3846" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="309.5" y="30" width="272" height="140" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
+<rect x="309.5" y="30" width="3" height="140" rx="1.5" fill="#6FC0B4"/>
+<text x="329.5" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.9" fill="#6FC0B4" font-weight="600">TRAIN</text>
+<text x="329.5" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">TTS / ASR fine-tune</text>
+<text x="329.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">LoRA and full</text>
+<text x="329.5" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">from scratch when needed</text>
+<path d="M591.0,100.0 L607.0,100.0 M602.0,95.5 L607.0,100.0 L602.0,104.5" stroke="#2E3846" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="618.5" y="30" width="272" height="140" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
+<rect x="618.5" y="30" width="3" height="140" rx="1.5" fill="#6FC0B4"/>
+<text x="638.5" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.9" fill="#6FC0B4" font-weight="600">EVALUATE</text>
+<text x="638.5" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">WER, word-level</text>
+<text x="638.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">A/B harnesses</text>
+<text x="638.5" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">LLM judges</text>
+<path d="M900.0,100.0 L916.0,100.0 M911.0,95.5 L916.0,100.0 L911.0,104.5" stroke="#2E3846" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="927.5" y="30" width="272" height="140" rx="5" fill="#12171E" stroke="#2E3846" stroke-width="1"/>
+<rect x="927.5" y="30" width="3" height="140" rx="1.5" fill="#6FC0B4"/>
+<text x="947.5" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.9" fill="#6FC0B4" font-weight="600">SERVE</text>
+<text x="947.5" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">quantise</text>
+<text x="947.5" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">batched inference</text>
+<text x="947.5" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" fill="#96A1B0">measure the latency</text>
+<path d="M754.5,170 L754.5,202 L136.5,202 L136.5,177 M132.0,182 L136.5,176 L141.0,182" stroke="#2E3846" stroke-width="1.2" stroke-dasharray="3 4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="445.5" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#96A1B0" font-style="italic">most of the gain lives here</text>
 </svg>
