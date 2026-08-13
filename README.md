@@ -8,9 +8,35 @@
 I build speech systems: text-to-speech, speech recognition, and the training and
 serving pipelines around them. Most of my work is on Turkish, where the pretrained
 models are weaker and the interesting problems are in the data rather than the
-architecture. I spend a lot of time on the unglamorous half of that, telephone-channel
-robustness, alignment quality, tokenizer behaviour, and getting inference fast enough
-to be worth deploying.
+architecture.
+
+---
+
+### What I work on
+
+**Speech.** Fine-tuning and training TTS and ASR models, down to training small ones
+from scratch when the pretrained options do not fit. Around the models: voice cloning
+and speaker adaptation, forced alignment, VAD, diarization, and the data work that
+decides whether any of it survives contact with real audio. A lot of that is telephone
+audio, so channel simulation, codec artefacts and packet loss get more of my attention
+than they probably deserve.
+
+**Making it run.** Getting a model from a checkpoint to something with acceptable
+latency and cost. Quantisation, batched inference, custom serving runtimes, and
+measuring throughput honestly rather than quoting the number from the paper.
+
+**Language models.** LoRA and full fine-tunes, retrieval evaluation, LLM-as-judge
+setups for ranking and relevance, and agent harnesses. Mostly applied: the question is
+usually whether a smaller tuned model beats a larger prompted one on the actual task,
+and that is an experiment, not an opinion.
+
+**Evaluation.** Building the benchmark before the model, because a speech or retrieval
+system that has not been measured on its real distribution is a guess. Word-level error
+analysis, A/B harnesses, synthetic corpora where real data is missing.
+
+Outside that: an anomaly detector for log and audit data, a couple of games in Godot,
+a native macOS utility in Swift, and some robotics simulation. Not my day job, useful
+for staying honest about how much of engineering is not machine learning.
 
 ---
 
